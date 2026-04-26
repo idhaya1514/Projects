@@ -55,7 +55,7 @@ void viewVehicles() {
         return;
     }
 
-    printf("\n--- Vehicle List ---\n");
+    printf("\n   Vehicle List   \n");
 
     while(fscanf(fp, "%d %s %s %f %d %s",
           &v.id, v.name, v.type, &v.price, &v.available, v.location) != EOF) {
@@ -188,7 +188,7 @@ int main() {
     int choice;
 
     while(1) {
-        printf("\n--- Vehicle Rental System ---\n");
+        printf("\n    Vehicle Rental System   \n");
         printf("1. Add Vehicle\n");
         printf("2. View Vehicles\n");
         printf("3. Search by Location\n");
